@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch"
+    android:background="@drawable/detail_btn_bg_normal"
+    android:orientation="horizontal" >
+
+    <!-- 刷新 -->
+
+    <LinearLayout
+        android:id="@+id/container_refresh"
+        style="@style/layoutBothMatch"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:addStatesFromChildren="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/menu_refresh"
+            style="@style/layoutBothWrap"
+            android:background="@drawable/menu_refresh"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:id="@+id/menu_refresh_text"
+            style="@style/layoutBothWrap"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:text="@string/refresh"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 评论 -->
+
+    <LinearLayout
+        android:id="@+id/container_comment"
+        style="@style/layoutBothMatch"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:addStatesFromChildren="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/menu_comment"
+            style="@style/layoutBothWrap"
+            android:background="@drawable/menu_comment"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:id="@+id/menu_comment_text"
+            style="@style/layoutBothWrap"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:text="@string/comment"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 转发 -->
+
+    <LinearLayout
+        android:id="@+id/container_repost"
+        style="@style/layoutBothMatch"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:addStatesFromChildren="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/menu_repost"
+            style="@style/layoutBothWrap"
+            android:background="@drawable/menu_repost"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:id="@+id/menu_repost_text"
+            style="@style/layoutBothWrap"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:text="@string/repost"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 收藏 -->
+
+    <LinearLayout
+        android:id="@+id/container_collection"
+        style="@style/layoutBothMatch"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:addStatesFromChildren="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/menu_collection"
+            style="@style/layoutBothWrap"
+            android:background="@drawable/menu_collection"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:id="@+id/menu_collection_text"
+            style="@style/layoutBothWrap"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:text="@string/collection"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <!-- 更多 -->
+
+    <LinearLayout
+        android:id="@+id/container_more"
+        style="@style/layoutBothMatch"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:addStatesFromChildren="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/menu_more"
+            style="@style/layoutBothWrap"
+            android:background="@drawable/menu_more"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:id="@+id/menu_more_text"
+            style="@style/layoutBothWrap"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:text="@string/more"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

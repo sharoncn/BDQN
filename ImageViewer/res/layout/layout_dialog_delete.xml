@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/dialog_delete_title"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/dialog_title" />
+
+    <ImageView 
+	    android:contentDescription="@string/separator_dialog"
+        style="@style/dialog_margin_buttom"
+	    android:layout_width="240dp"
+	    android:layout_height="2dp"
+	    android:background="@color/skyblue"/>
+    
+    <TextView 
+        android:id="@+id/dialog_delete_message" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/dialog_content" />
+    
+	<ImageView 
+	    android:contentDescription="@string/separator_dialog"
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray" />
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+		<Button 
+	        android:id="@+id/dialog_delete_cancel"
+	        android:layout_weight="1"
+	        android:background="@drawable/dialog_delete_button_selector"
+	        style="@style/dialog_delete_button" />
+		<ImageView 
+		    android:contentDescription="@string/separator_dialog"
+		    android:layout_width="1dp"
+		    android:layout_height="match_parent"
+		    android:background="@android:color/darker_gray" />
+		<Button 
+	        android:id="@+id/dialog_delete_ok"
+	        android:layout_weight="1"
+	        android:background="@drawable/dialog_delete_button_selector"
+	        style="@style/dialog_delete_button" />
+	</LinearLayout>
+</LinearLayout>

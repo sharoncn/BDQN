@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_gray2_bg"
+    android:orientation="vertical" >
+
+    <rjfsdo.sharoncn.android.BDQN.ImageViewer.Components.Header
+        android:id="@+id/main_header"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <ImageView
+        android:id="@+id/main_separator"
+        android:layout_below="@id/main_header"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <GridView
+        android:id="@+id/main_gview"
+        android:background="@color/dark_gray2_bg"
+        android:layout_below="@id/main_separator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="70dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+    <rjfsdo.sharoncn.android.BDQN.ImageViewer.Components.DefaultMenu 
+        android:id="@+id/bottom_menu"
+        android:layout_alignParentBottom="true"
+        android:background="@raw/head_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</RelativeLayout>

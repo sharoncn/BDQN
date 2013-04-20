@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="widthWrap">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="widthMatch">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="layoutBothWrap" parent="widthWrap">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="layoutBothMatch" parent="widthMatch">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wMatchhWrap" parent="widthMatch">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wWraphMatch" parent="widthWrap">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="headerTitle" parent="layoutBothWrap">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="defaultHeaderStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="communication_btn" parent="layoutBothWrap">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="dialog_detail_content" parent="wMatchhWrap">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/sky_blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dialog_detail_titile" parent="wMatchhWrap">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="power_content" parent="wMatchhWrap">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="power_p" parent="layoutBothWrap">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="app_item_title" parent="layoutBothWrap">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="app_item_small" parent="layoutBothWrap">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="privacy_item_text" parent="layoutBothWrap">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="privacy_pw_text" parent="layoutBothWrap">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="traffic_title" parent="layoutBothWrap">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="traffic_text" parent="layoutBothWrap">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+	<style name="traffic_query_text" parent="wMatchhWrap">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

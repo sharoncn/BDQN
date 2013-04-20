@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rjf="http://schemas.android.com/apk/res/rjfsdo.sharoncn.android.BDQN.AptechMobileAgent"
+    style="@style/layoutBothMatch"
+    android:background="@drawable/bg_1"
+    android:orientation="vertical" >
+
+    <rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.Components.AppHeader
+        android:id="@+id/app_mgr_header"
+        style="@style/defaultHeaderStyle"
+        android:background="@drawable/top_bg"
+        rjf:headerTitle="@string/apps_mgr" />
+
+    <ListView
+        android:id="@+id/app_mgr_list"
+        style="@style/layoutBothMatch"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:cacheColorHint="@android:color/transparent" >
+    </ListView>
+
+    <rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.Components.Menu
+        android:id="@+id/app_mgr_menu"
+        style="@style/wMatchhWrap"
+        android:layout_weight="0" />
+
+</LinearLayout>

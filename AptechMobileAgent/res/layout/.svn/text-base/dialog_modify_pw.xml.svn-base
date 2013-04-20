@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/privacy_item_text"
+        android:text="@string/dialog_modify_oldpw" />
+
+    <EditText
+        android:id="@+id/dialog_modify_opw"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_modify_oldpw_1"
+        android:password="true" />
+
+    <TextView
+        style="@style/privacy_item_text"
+        android:text="@string/dialog_modify_newpw" />
+
+    <EditText
+        android:id="@+id/dialog_modify_npw"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_modify_newpw_1"
+        android:password="true" />
+
+    <TextView
+        style="@style/privacy_item_text"
+        android:text="@string/dialog_modify_newcomform" />
+
+    <EditText
+        android:id="@+id/dialog_modify_ncomform"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_modify_newcomform_1"
+        android:password="true" />
+
+    <CheckBox
+        android:id="@+id/dialog_modify_cb"
+        style="@style/layoutBothWrap"
+        android:button="@drawable/checkbox_drawable"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:text="@string/showpassword"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

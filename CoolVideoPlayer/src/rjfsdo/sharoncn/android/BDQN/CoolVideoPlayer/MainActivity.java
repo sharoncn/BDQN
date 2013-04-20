@@ -1,0 +1,236 @@
+package rjfsdo.sharoncn.android.BDQN.CoolVideoPlayer;
+
+import cn.com.jbit.coolvideoplayer.R;
+import android.app.Activity;
+import android.content.Intent;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.os.Handler;
+import android.util.Log;
+import android.view.MotionEvent;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.ImageButton;
+
+public class MainActivity extends Activity implements SurfaceHolder.Callback{
+	private static final String VIDEO_PATH = "/mnt/sdcard/mulanxing.3gp";
+	protected static final String TAG = "MainActivity";
+	private MediaPlayer _mediaPlayer;
+	private SurfaceView _surfaceView;
+	private SurfaceHolder _surfaceHolder;
+	private String videoPath = null;
+	private ImageButton ib_main_play,ib_main_stop,ib_main_openlist;
+	private View button_container;
+	private boolean isPause = false;//当前是否处于暂停状态
+	private boolean isStop = false;
+	private int position = 0;
+	private Handler handler;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+		this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		setContentView(R.layout.layout_main);
+		
+		handler = new Handler();
+		//得到播放路径
+		Intent intent = getIntent();
+		videoPath = intent.getStringExtra("path");
+		//得到所有控制按钮
+		button_container = findViewById(R.id.button_container);
+		ib_main_play = (ImageButton) findViewById(R.id.ib_main_play);
+
+		ib_main_stop = (ImageButton) findViewById(R.id.ib_main_stop);
+		ib_main_openlist = (ImageButton) findViewById(R.id.ib_main_openlist);
+		//为播放控制按钮添加监听器
+		ib_main_play.setOnClickListener(playListener);
+		ib_main_stop.setOnClickListener(stopListener);
+		ib_main_openlist.setOnClickListener(listListener);
+		//得到SurfaceView
+		_surfaceView = (SurfaceView) findViewById(R.id.sv_main_screen);
+		_surfaceHolder = _surfaceView.getHolder();
+		_surfaceHolder.addCallback(this);
+		//设置使用非原生数据，不使用缓冲区
+		_surfaceHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+	}
+
+	/**
+	 * 当播放状态(播放和暂停)改变时用这个方法改变播放按钮的状态
+	 */
+	private void setPlayButtonState(){
+		if(_mediaPlayer != null && _mediaPlayer.isPlaying()){
+			ib_main_play.setImageResource(R.raw.btn_mp_pause);
+			isPause = false;
+		}else{
+			ib_main_play.setImageResource(R.raw.btn_mp_play);
+			isPause = true;
+		}
+	}
+	
+	/**
+	 * 播放视频
+	 */
+	private void playVideo(){
+		if(_mediaPlayer == null){
+			_mediaPlayer = new MediaPlayer();
+		}
+		
+		try{
+			if(!isPause){
+				Log.v(TAG,videoPath + "    " + _mediaPlayer.getSubtitleStreamName(0));
+				_mediaPlayer.reset();
+				//设置播放路径
+				_mediaPlayer.setDataSource(videoPath == null ? VIDEO_PATH : videoPath);
+				//设置声音流的类型
+				_mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+				//设置显示的位置
+				_mediaPlayer.setDisplay(_surfaceHolder);
+				//完成准备
+				_mediaPlayer.prepare();
+				//跳转到指定位置
+				_mediaPlayer.seekTo(position);
+			}else{
+				if(isStop){
+					Log.v(TAG,"执行stop");
+					//完成准备
+					_mediaPlayer.prepare();
+					//跳转到指定位置
+					_mediaPlayer.seekTo(position);
+					isStop = false;
+				}
+			}
+			//开始
+			_mediaPlayer.start();
+			//切换播放暂停状态
+			setPlayButtonState();
+			position = 0;
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+	
+	/**
+	 * 播放暂停功能
+	 */
+	private void pause(){
+		_mediaPlayer.pause();
+		setPlayButtonState();
+	}
+	
+	//延迟隐藏控制按钮的任务
+	private Runnable task = new Runnable(){
+		public void run() {
+			hideButton();
+		}
+	};
+	
+	/**
+	 * 显示播放停止等控制图标
+	 */
+	private void showButton(){
+		button_container.setVisibility(View.VISIBLE);
+		handler.removeCallbacks(task);
+		handler.postDelayed(task, 3000);
+	}
+	
+	/**
+	 * 隐藏播放停止等控制图标
+	 */
+	private void hideButton(){
+		button_container.setVisibility(View.GONE);
+	}
+	
+	@Override
+	public boolean onTouchEvent(MotionEvent event) {
+		showButton();
+		return super.onTouchEvent(event);
+	}
+
+	@Override
+	protected void onPause() {
+		if(_mediaPlayer != null && _mediaPlayer.isPlaying()){
+			_mediaPlayer.stop();
+		}
+		super.onPause();
+	}
+
+	public void surfaceChanged(SurfaceHolder holder, int format, int width,
+			int height) {
+		//保存播放位置之类的动作吧
+	}
+
+	public void surfaceCreated(SurfaceHolder holder) {
+		playVideo();
+		showButton();
+	}
+
+	public void surfaceDestroyed(SurfaceHolder holder) {
+		_mediaPlayer = null;
+		_surfaceHolder = null;
+		_surfaceView = null;
+	}
+	
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		outState.putInt("position", _mediaPlayer.getCurrentPosition());
+		super.onSaveInstanceState(outState);
+	}
+
+	
+	@Override
+	protected void onRestoreInstanceState(Bundle savedInstanceState) {
+		if(savedInstanceState.containsKey("position")){
+			position = savedInstanceState.getInt("position");
+		}else{
+			position = 0;
+		}
+		super.onRestoreInstanceState(savedInstanceState);
+	}
+
+	//播放按钮监听器，暂停功能的处理也在一起
+	private OnClickListener playListener = new OnClickListener() {
+		
+		public void onClick(View v) {
+
+			if(_mediaPlayer != null){
+				if(!_mediaPlayer.isPlaying()){
+					playVideo();
+				}else{
+					pause();
+				}
+			}
+		}
+	};
+	
+	private OnClickListener stopListener = new OnClickListener() {
+		
+		public void onClick(View v) {
+			if(_mediaPlayer != null){
+				_mediaPlayer.stop();
+				setPlayButtonState();
+				//isPause = false;
+				isStop = true;
+			}
+		}
+	};
+	
+	//返回视频列表的监听器
+	private OnClickListener listListener = new OnClickListener() {
+		
+		public void onClick(View v) {
+			if(_mediaPlayer != null){
+				_mediaPlayer.stop();
+				_mediaPlayer = null;
+			}
+			Intent intent = new Intent(MainActivity.this,VideoListActivity.class);
+			startActivity(intent);
+			finish();
+		}
+	};
+}

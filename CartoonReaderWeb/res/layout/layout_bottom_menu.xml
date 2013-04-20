@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bottom_bg"
+    android:gravity="center" >
+
+    <ImageButton 
+        android:id="@+id/menu_btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottommenu_item_home"
+        android:background="@drawable/bottom_home" />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bootom_bg_bar" />
+    <ImageButton 
+        android:id="@+id/menu_btn_shelf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottommenu_item_shelf"
+        android:background="@drawable/bottom_shelf" />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bootom_bg_bar" />
+    <ImageButton 
+        android:id="@+id/menu_btn_browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottommenu_item_browser"
+        android:background="@drawable/bottom_browser" />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bootom_bg_bar" />
+    <ImageButton 
+        android:id="@+id/menu_btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottommenu_item_search"
+        android:background="@drawable/bottom_search" />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bootom_bg_bar" />
+    <ImageButton 
+        android:id="@+id/menu_btn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottommenu_item_more"
+        android:background="@drawable/bottom_more" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#FBCA70</color>
+    <color name="bgcolor">#F7F3F7</color>
+    <color name="divider">#CEDBE7</color>
+    <color name="panel_count_value">#6185B0</color>
+
+    
+</resources>

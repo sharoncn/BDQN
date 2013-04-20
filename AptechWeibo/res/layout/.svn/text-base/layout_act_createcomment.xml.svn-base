@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch"
+    android:background="@color/bgcolor"
+    android:orientation="vertical" >
+
+    <rjfsdo.sharoncn.android.BDQN.AptechWeibo.Components.ButtonHeader
+        android:id="@+id/ccomment_header"
+        style="@style/wMatchhWrap"
+        android:layout_gravity="top"
+        android:background="@drawable/search_bg" />
+
+    <EditText
+        android:id="@+id/ccomment_content"
+        style="@style/layoutBothMatch"
+        android:layout_weight="1"
+        android:background="@drawable/edit_selector"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/ccomment_contentlen"
+                style="@style/layoutBothWrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/ccomment_is_comment"
+                style="@style/layoutBothWrap"
+                android:checked="true"
+                android:text="@string/is_comment"
+                android:textColor="@android:color/black" />
+
+            <CheckBox
+                android:id="@+id/ccomment_to_owner"
+                style="@style/layoutBothWrap"
+                android:checked="true"
+                android:text="@string/to_owner"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--初始化-->
+    <string name="app_name">动漫阅读器(网络)</string>
+	<string name="welcome">欢迎使用北大青鸟动漫阅读器</string>
+	<string name="infro">本版权归北大青鸟集团所有</string>
+	<string name="copyright">copyright@2010-2015</string>
+	<string name="noPic">请加载漫画!</string>
+	<string name="init_tips">请选择要阅读的漫画</string>
+	<string name="tip_title">  青鸟动漫   </string>	
+	<string name="tip_submit">是</string>
+	<string name="tip_cancel">否</string>
+	<!--Loading-->
+	<string name="loading">正在加载……</string>
+	<string name="loading_no_sdcard">SDCard卡不存在!</string>
+	<string name="loading_no_connection_service">服务器链接失败!</string>	
+	<!--SDcard文件浏览-->
+	<string name="sdcard">SDCard</string>
+	<string name="sdcard_browse">浏览</string>
+	<string name="sdcard_directory">目录更新中...</string>
+	<string name="sdcard_filesName">打开文件</string>
+	<string name="sdcard_historyName">最近记录</string>	
+	<string name="sdcard_hall">漫画大厅</string>
+	<string name="sdcard_parentDirector">   上级目录     </string>
+	<string name="sdcard_is_root_dir">   根目录      </string>
+	<string name="sdcard_is_file">文件 </string>
+	<string name="sdcard_no_files">没有该目录! </string>
+	<string name="sdcard_no_sdcard">SDCard卡不存在!</string>
+	<string name="sdcard_root_dir">当前目录为根目录! </string>
+	<string name="sdcard_goback"> 返回  </string>
+	<string name="sdcard_nopic">该文件不存在! </string>	
+	<!--漫画书库目录-->
+	<string name="book_title">书库目录</string>
+	<string name="book_collection">收藏成功!</string>		
+	<string name="book_collection_title">收藏设置</string>
+	<string name="book_collection_deleteAll">是否要删除全部收藏?</string>
+	<string name="book_collection_exist">已经收藏!</string>	
+	<string name="book_download_exist">提示：该本漫画书已经下载,点击可以直接进行阅读</string>	
+	<string name="book_download_not_exist">提示：阅读前需要先下载该本漫画书</string>		
+	<string name="book_refresh">加载中,请稍后</string>	
+	<string name="book_download_exist_tip">已经下载</string>
+	<string name="book_download_no_exist">未下载</string>
+	<string name="book_more">更  多</string>
+	<string name="book_title_zd">本期主打</string>
+	<string name="book_title_lszd">历史主打</string>		
+	<string name="book_title_tj">热门推荐</string>	
+	<string name="book_title_ph">热门排行</string>	
+	<string name="book_recommend">推荐指数</string>	
+							
+	<!--download-->
+	<string name="download_read">下载阅读</string>
+	<string name="download_finished">已完成</string>
+	<string name="download_finish">已经下载</string>
+	<string name="download_commentRate">好评率：</string>	
+	<string name="download_hitNums">阅读次数：</string>	
+	<string name="download_title">是否进行下载?</string>	
+	<string name="download_submit">下载</string>	
+	<string name="download_cancel">取消</string>
+	<string name="download_exists">该本漫画书已经下载!</string>
+	<string name="download_success">下载完成!</string>
+	<string name="download_fail">下载失败!</string>
+	<string name="download_refresh">载入中，请稍后</string>		
+	<!--menu-->
+	<string name="menu_open">打开</string>
+	<string name="menu_share">分享</string>
+	<string name="menu_setup">设置</string>
+	<string name="menu_close">关闭</string>
+	<string name="menu_turn">旋转</string>
+	<string name="menu_more">更多</string>
+	<string name="menu_goto">跳转</string>		
+	<string name="menu_bookmark">书签</string>			
+	<!--menu-->
+	<!--退出-->
+	<string name="logout_title">提示</string>
+    <string name="logout_msg_title">   青鸟动漫   </string>
+	<string name="logout_msg_body">确定要退出【动漫阅读器】吗?</string>
+	<string name="logout_submit">是</string>
+	<string name="logout_cancel">否</string>
+	<!-- 目录 -->
+	<string name="directoryName">目  录</string>	
+	<!--分页-->
+	<string name="pageTitle">跳转到</string>	
+	<string name="pageFirst">当前位置是第一页</string>	
+	<string name="pageEnd">当前位置是最后一页</string>	
+	<string name="pageCancel">取  消</string>	
+	<!--图片预览-->
+	<string name="picPreview">图片预览</string>	
+	<string name="picGoto">前往</string>		
+	<string name="picGoback">返回</string>	
+	<!--更多设置-->
+	<string name="picInfo">图片详情</string>	
+	<string name="picCancel">取消</string>	
+	<string name="picRotate">自定义旋转</string>	
+	<string name="picSetUp">设置</string>	
+	<!--定时浏览-->	
+	<string name="fixedtimetobrowse">定时阅览</string>	
+	<string name="handcontrol">手动：</string>	
+	<string name="second3">3秒钟：</string>	
+	<string name="second5">5秒钟：</string>	
+	<!--书签-->
+	<string name="bookmarkSetUp">书签设置</string>	
+	<string name="bookmarkSave">书签保存成功!</string>
+	<string name="bookmarkTitle">请输入书签名称:</string>	
+	<string name="bookmarkDeleteAll">是否要删除全部书签?</string>
+	<string name="bookmarkSubmit">确定</string>
+	<string name="bookmarkCancel">取消</string>
+	<string name="nobookmark">书签删除成功!</string>
+	<string name="bookmarkDelete">确定删除标签吗？</string> 
+	<string name="check">查看</string> 
+  	<string name="delete">删除</string> 
+ 	<string name="deleteAll">删除全部</string> 
+  	<string name="orderTimeBrowse">定时浏览图片</string> 
+  	<string name="bookmarkBrowse">浏览书签</string>
+  	<string name="pictureRotate">图片旋转</string> 
+  	<string name="rotateleft">向左旋转45度</string> 
+  	<string name="rotateright">向右旋转45度</string> 
+	<!--错误提示-->
+	<string name="pageNumError">页码有误</string>
+	<!--我的收藏-->
+	<string name="coll_nomsg">还没有收藏!</string>
+	<!--我的阅读-->
+	<string name="read_nomsg">还没有阅读!</string>
+	<string name="read_date_part1">最后阅读到:第</string>
+	<string name="read_date_part2">页(共</string>
+	<string name="read_date_part3">页)</string>
+	<!--头部标题-->
+	<string name="top_title">动漫阅读器</string>
+	<!--menu-->	
+	<string name="menu_mycollection">我的收藏</string>
+	<string name="menu_recentlyread">最近阅读</string>	
+	<string name="menu_openfile">打开文件</string>
+	<string name="menu_history">历史记录</string>
+	<string name="menu_finished">已完成</string>
+	<string name="menu_downquene">下载队列</string>
+	<!--漫画类别-->	
+    <string name="type_toptitle">分类导航</string>	
+	<string name="bookType_tip">该类别暂无相应的漫画书籍!</string>	
+	<!--漫画类别-->
+	<!--漫画书信息-->
+	<string name="bookInfo_collection_success">收藏成功!</string>
+	<string name="bookInfo_collection_fail">收藏失败!</string>	
+	<string name="bookInfo_collection_exist">该本漫画书已经收藏过!</string>
+	<string name="collection_delete_item">删除该记录</string>	
+	<string name="collection_delete_title">操作提示</string>	
+	<string name="collection_delete_content">是否要删除该记录?</string>	
+	<string name="collection_delete_ok">确定</string>
+	<string name="collection_delete_cancel">取消</string>	
+	<string name="downlond_delete_content">是否要删除下载的漫画书?</string>	
+	<string name="downlond_wait">打开文件中,请稍候....</string>	
+	<string name="downlond_fail">文件下载失败!</string>	
+	<!--advise-->
+	<string name="advise_content">请输入反馈信息!</string>	
+	<string name="advise_success">信息反馈成功!</string>	
+	<string name="advise_fail">信息反馈失败!</string>	
+	<!--rate-->
+	<string name="rate_success">评分成功!</string>
+	<string name="rate_fail">评分失败!</string>	
+	<string name="rate_grade_tip">请对该本漫画进行评分:</string>
+	<string name="rate_no_grade">还没有人评价!</string>
+	<string name="rate_had">已经有</string>
+	<string name="rate_graded">人评价!</string>	
+	<string name="rate_home">首页</string>
+	
+	<!--search-->
+	<string name="search_wait">查询中,请稍候....</string>
+	<string name="search_keyword">请输入查询关键字!</string>
+	<string name="search_nomatch">没有找到匹配的漫画</string>
+	<string name="search_alltype">全部</string>
+	<!--bookInfo-->
+	<string name="bookInfo_bookTitle">书名:</string>	
+	<string name="bookInfo_writer">作者:</string>
+	<!--  -->
+	<string name="write_xml_fail">写入XML失败</string>
+	<!-- bottommenu -->
+	<string name="about">关于</string>
+	<string name="exit">退出</string>
+	<string name="feedback">反馈</string>
+	<string name="cancel">取消</string>
+	
+	<string name="write_fail">写入文件失败！</string>
+	<string name="getdata_fail">获得数据失败！</string>
+	<string name="upzip_fail">解压文件失败！</string>
+	<string name="save2db_fail">写入数据库失败！</string>
+	<!-- 反馈 -->
+	<string name="submit">提交</string>
+	<string name="all">全部</string>
+	<string name="feedback_title">反&#160;&#160;&#160;&#160;馈</string>
+	<string name="about_header_title">关&#160;&#160;&#160;&#160;于</string>
+	
+	<string name="firstPage">第一页</string> 
+  	<string name="beforePage">上一页</string> 
+  	<string name="nextPage">下一页</string> 
+ 	<string name="lastPage">最后一页</string> 
+	<string name="get_image_err">获取图片失败！</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rjf="http://schemas.android.com/apk/res/rjfsdo.sharoncn.android.BDQN.AptechMobileAgent"
+    style="@style/layoutBothMatch"
+    android:background="@drawable/bg_1"
+    android:orientation="vertical" >
+
+    <rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.Components.DefaultHeader
+        android:id="@+id/power_mgr_header"
+        style="@style/defaultHeaderStyle"
+        android:background="@drawable/top_bg"
+        rjf:headerTitle="@string/power_mgr" />
+
+    <rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.Components.BatteryView
+        android:id="@+id/power_mgr_battery"
+        style="@style/wMatchhWrap"
+        android:layout_marginTop="10dp" />
+
+    <ScrollView style="@style/layoutBothMatch" >
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/power_status"
+                style="@style/power_content" />
+
+            <TextView
+                android:id="@+id/power_status_r"
+                style="@style/power_content" />
+
+            <TextView
+                android:id="@+id/power_status_v"
+                style="@style/power_content" />
+
+            <TextView
+                android:id="@+id/power_status_t"
+                style="@style/power_content" />
+
+            <TextView
+                android:id="@+id/power_status_tech"
+                style="@style/power_content" />
+
+            <TextView
+                android:id="@+id/power_status_rt"
+                style="@style/power_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

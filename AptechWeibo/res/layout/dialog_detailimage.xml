@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch" >
+
+    <ScrollView
+        style="@style/layoutBothMatch"
+        android:scrollbars="vertical" >
+
+        <HorizontalScrollView
+            style="@style/layoutBothMatch"
+            android:scrollbars="horizontal" >
+
+            <FrameLayout style="@style/layoutBothWrap" >
+
+                <ImageView
+                    android:id="@+id/dlg_detail_iv"
+                    style="@style/layoutBothWrap"
+                    android:layout_gravity="center" />
+
+                <ProgressBar
+                    android:id="@+id/dlg_detail_pb"
+                    style="@style/layoutBothWrap"
+                    android:layout_gravity="center"
+                    android:minHeight="50dp"
+                    android:minWidth="50dp" />
+            </FrameLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</FrameLayout>

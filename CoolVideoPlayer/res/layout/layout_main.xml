@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/iv_main_adv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/adv_inc"
+        android:background="@color/white" />
+	<FrameLayout 
+	    android:id="@+id/fl_main"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	    <SurfaceView 
+	        android:id="@+id/sv_main_screen"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+	    <LinearLayout 
+	        android:id="@+id/button_container"
+	        android:layout_gravity="center_horizontal|bottom"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="5dp"
+	        android:orientation="horizontal" >
+	        <ImageButton 
+	            android:id="@+id/ib_main_play"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@raw/btn_mp_play" />
+	        <ImageButton 
+	            android:id="@+id/ib_main_stop"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:src="@raw/btn_mp_stop" />
+	       <ImageButton 
+	            android:id="@+id/ib_main_openlist"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:src="@raw/btn_mp_openlist" />
+	    </LinearLayout>
+	</FrameLayout>
+</LinearLayout>

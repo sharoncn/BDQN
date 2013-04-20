@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="skyblue">#FF2E9AFE</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="Black">#00000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark_gray">#FF3C3C3C</color>
+    <color name="dark_gray2_bg">#FF585858</color>
+</resources>

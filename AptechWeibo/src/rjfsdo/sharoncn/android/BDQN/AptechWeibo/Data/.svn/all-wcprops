@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/BDQN/!svn/ver/1002/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data
+END
+CommentParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/BDQN/!svn/ver/825/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/CommentParser.java
+END
+FavoritesParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/BDQN/!svn/ver/825/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/FavoritesParser.java
+END
+StatusParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BDQN/!svn/ver/825/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/StatusParser.java
+END
+ProvincesProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/BDQN/!svn/ver/700/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/ProvincesProvider.java
+END
+WeiboPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/BDQN/!svn/ver/587/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/WeiboPreference.java
+END
+JsonParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/BDQN/!svn/ver/1000/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/JsonParser.java
+END
+BaseParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BDQN/!svn/ver/820/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/BaseParser.java
+END
+TagParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/BDQN/!svn/ver/825/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/TagParser.java
+END
+UserIdParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BDQN/!svn/ver/825/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/UserIdParser.java
+END
+WeiboDataManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/BDQN/!svn/ver/1000/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/WeiboDataManager.java
+END
+UserParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BDQN/!svn/ver/825/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/UserParser.java
+END
+WeiboDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/BDQN/!svn/ver/1000/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/WeiboDBHelper.java
+END
+ResponseHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/BDQN/!svn/ver/1000/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/ResponseHolder.java
+END

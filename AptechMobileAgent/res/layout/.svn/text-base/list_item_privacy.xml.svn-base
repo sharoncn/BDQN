@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothWrap"
+    android:background="@drawable/list_bg_normal" >
+
+    <ImageView
+        android:id="@+id/privacy_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/privacy_text"
+        style="@style/privacy_item_text"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/privacy_icon" />
+
+    <ImageView
+        android:id="@+id/privacy_lock"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/privacy_lock" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/BDQN/!svn/ver/648/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/Dao
+END
+TagDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BDQN/!svn/ver/648/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/Dao/TagDao.java
+END
+VisibleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/BDQN/!svn/ver/648/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/Dao/VisibleDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/BDQN/!svn/ver/648/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/Dao/UserDao.java
+END
+FavoriteDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/BDQN/!svn/ver/648/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/Dao/FavoriteDao.java
+END
+CommentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/BDQN/!svn/ver/648/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/Dao/CommentDao.java
+END
+StatusDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/BDQN/!svn/ver/648/AptechWeibo/src/rjfsdo/sharoncn/android/BDQN/AptechWeibo/Data/Dao/StatusDao.java
+END

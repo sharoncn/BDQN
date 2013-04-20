@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/BDQN/!svn/ver/293/CartoonReaderWeb/src/rjfsdo/sharoncn/android/CartoonReaderWeb/Data
+END
+SqliteHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/BDQN/!svn/ver/293/CartoonReaderWeb/src/rjfsdo/sharoncn/android/CartoonReaderWeb/Data/SqliteHelper.java
+END
+FeedbackDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/BDQN/!svn/ver/293/CartoonReaderWeb/src/rjfsdo/sharoncn/android/CartoonReaderWeb/Data/FeedbackDao.java
+END
+BookInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/BDQN/!svn/ver/293/CartoonReaderWeb/src/rjfsdo/sharoncn/android/CartoonReaderWeb/Data/BookInfoDao.java
+END
+BookInfoDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/BDQN/!svn/ver/293/CartoonReaderWeb/src/rjfsdo/sharoncn/android/CartoonReaderWeb/Data/BookInfoDaoImpl.java
+END

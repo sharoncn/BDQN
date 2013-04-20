@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/BDQN/!svn/ver/1007/AptechWeibo/res/layout
+END
+layout_act_aboutme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/716/AptechWeibo/res/layout/layout_act_aboutme.xml
+END
+panel_simple_info_spinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/BDQN/!svn/ver/717/AptechWeibo/res/layout/panel_simple_info_spinner.xml
+END
+layout_act_newstatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/BDQN/!svn/ver/817/AptechWeibo/res/layout/layout_act_newstatus.xml
+END
+header_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/BDQN/!svn/ver/765/AptechWeibo/res/layout/header_button.xml
+END
+layout_act_setup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/BDQN/!svn/ver/823/AptechWeibo/res/layout/layout_act_setup.xml
+END
+dialog_detailimage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/BDQN/!svn/ver/1007/AptechWeibo/res/layout/dialog_detailimage.xml
+END
+layout_act_editinfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/BDQN/!svn/ver/768/AptechWeibo/res/layout/layout_act_editinfo.xml
+END
+layout_act_altme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/BDQN/!svn/ver/820/AptechWeibo/res/layout/layout_act_altme.xml
+END
+layout_act_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/691/AptechWeibo/res/layout/layout_act_comment.xml
+END
+list_item_favorite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/795/AptechWeibo/res/layout/list_item_favorite.xml
+END
+layout_act_blacklist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/BDQN/!svn/ver/691/AptechWeibo/res/layout/layout_act_blacklist.xml
+END
+list_item_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/BDQN/!svn/ver/824/AptechWeibo/res/layout/list_item_main.xml
+END
+layout_act_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/573/AptechWeibo/res/layout/layout_act_loading.xml
+END
+layout_act_maltme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/BDQN/!svn/ver/690/AptechWeibo/res/layout/layout_act_maltme.xml
+END
+panel_simple_info_v.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/BDQN/!svn/ver/704/AptechWeibo/res/layout/panel_simple_info_v.xml
+END
+menu_default.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/BDQN/!svn/ver/740/AptechWeibo/res/layout/menu_default.xml
+END
+layout_act_home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/BDQN/!svn/ver/768/AptechWeibo/res/layout/layout_act_home.xml
+END
+layout_act_collection.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/BDQN/!svn/ver/795/AptechWeibo/res/layout/layout_act_collection.xml
+END
+panel_simple_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/BDQN/!svn/ver/700/AptechWeibo/res/layout/panel_simple_info.xml
+END
+layout_act_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/BDQN/!svn/ver/737/AptechWeibo/res/layout/layout_act_more.xml
+END
+panel_simple_info_edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/BDQN/!svn/ver/719/AptechWeibo/res/layout/panel_simple_info_edit.xml
+END
+layout_act_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/BDQN/!svn/ver/730/AptechWeibo/res/layout/layout_act_search.xml
+END
+layout_act_statusdetail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/BDQN/!svn/ver/825/AptechWeibo/res/layout/layout_act_statusdetail.xml
+END
+layout_act_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/BDQN/!svn/ver/652/AptechWeibo/res/layout/layout_act_login.xml
+END
+header_default.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/BDQN/!svn/ver/593/AptechWeibo/res/layout/header_default.xml
+END
+header_imagebtn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/BDQN/!svn/ver/594/AptechWeibo/res/layout/header_imagebtn.xml
+END
+layout_act_maintab.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/594/AptechWeibo/res/layout/layout_act_maintab.xml
+END
+panel_simple_image_clickable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/BDQN/!svn/ver/737/AptechWeibo/res/layout/panel_simple_image_clickable.xml
+END
+spinner_item_simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/BDQN/!svn/ver/717/AptechWeibo/res/layout/spinner_item_simple.xml
+END
+tab_menu_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/BDQN/!svn/ver/582/AptechWeibo/res/layout/tab_menu_item.xml
+END
+layout_act_createcomment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/BDQN/!svn/ver/788/AptechWeibo/res/layout/layout_act_createcomment.xml
+END
+seekbar_preference.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/822/AptechWeibo/res/layout/seekbar_preference.xml
+END
+list_item_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/BDQN/!svn/ver/733/AptechWeibo/res/layout/list_item_more.xml
+END
+panel_simple_info_clickable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/BDQN/!svn/ver/704/AptechWeibo/res/layout/panel_simple_info_clickable.xml
+END
+test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/BDQN/!svn/ver/740/AptechWeibo/res/layout/test.xml
+END

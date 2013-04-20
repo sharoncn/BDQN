@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        style="@style/layoutBothMatch"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/panel_content"
+            style="@style/panel_count_content" />
+
+        <TextView
+            android:id="@+id/panel_title"
+            style="@style/panel_title"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

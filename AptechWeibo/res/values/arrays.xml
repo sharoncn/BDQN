@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_preference">
+        <item >3分钟</item>
+        <item >5分钟</item>
+        <item >10分钟</item>
+        <item >30分钟</item>
+        <item >不更新</item>
+    </string-array>
+
+    <integer-array name="entriesvalue_list_preference">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+    </integer-array>
+    
+    <string-array name="fontsize_list_preference">
+        <item >12号</item>
+        <item >14号</item>
+        <item >16号</item>
+    </string-array>
+    
+    <integer-array name="fontsizevalue_list_preference">
+        <item >12</item>
+        <item >14</item>
+        <item >16</item>
+    </integer-array>
+</resources>

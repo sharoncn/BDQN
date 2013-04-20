@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/BDQN/!svn/ver/344/ImageViewer/res/layout
+END
+layout_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/BDQN/!svn/ver/344/ImageViewer/res/layout/layout_main.xml
+END
+layout_components_header_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/BDQN/!svn/ver/338/ImageViewer/res/layout/layout_components_header_view.xml
+END
+layout_components_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/BDQN/!svn/ver/344/ImageViewer/res/layout/layout_components_menu.xml
+END
+layout_dialog_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/315/ImageViewer/res/layout/layout_dialog_info.xml
+END
+layout_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/BDQN/!svn/ver/323/ImageViewer/res/layout/layout_view.xml
+END
+layout_components_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/BDQN/!svn/ver/301/ImageViewer/res/layout/layout_components_header.xml
+END
+item_gridview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/BDQN/!svn/ver/344/ImageViewer/res/layout/item_gridview.xml
+END
+layout_dialog_delete.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/BDQN/!svn/ver/315/ImageViewer/res/layout/layout_dialog_delete.xml
+END
+layout_dialog_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/315/ImageViewer/res/layout/layout_dialog_more.xml
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BDQN/!svn/ver/1041/AptechMobileAgent/src/rjfsdo/sharoncn/android/BDQN/AptechMobileAgent/Receivers
+END
+ShutdownReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/BDQN/!svn/ver/1041/AptechMobileAgent/src/rjfsdo/sharoncn/android/BDQN/AptechMobileAgent/Receivers/ShutdownReceiver.java
+END
+BootReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/BDQN/!svn/ver/1025/AptechMobileAgent/src/rjfsdo/sharoncn/android/BDQN/AptechMobileAgent/Receivers/BootReceiver.java
+END
+LockScreenReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/BDQN/!svn/ver/1017/AptechMobileAgent/src/rjfsdo/sharoncn/android/BDQN/AptechMobileAgent/Receivers/LockScreenReceiver.java
+END

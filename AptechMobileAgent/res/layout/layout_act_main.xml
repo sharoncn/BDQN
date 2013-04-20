@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+
+	<rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.Components.CustomGrid 
+	    android:id="@+id/main_grid"
+	    android:numColumns="2"
+	    android:stretchMode="columnWidth"
+	    style="@style/layoutBothMatch"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="80dp"
+	    android:layout_marginBottom="20dp" />
+</LinearLayout>

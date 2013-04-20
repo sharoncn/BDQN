@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<!-- 没有焦点时的背景图片--> 
+  	<item state_focused="false" android:state_pressed="false" android:state_selected="false" android:drawable="@drawable/pko_n" /> 
+  	<!-- 单击时的背景图片--> 
+  	<item android:state_pressed="true" android:drawable="@drawable/pko_s" /> 
+	<!-- 获取到焦点时的背景图片--> 
+  	<item android:state_selected="true" android:drawable="@drawable/pko_s" /> 
+</selector>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rjf="http://schemas.android.com/apk/res/rjfsdo.sharoncn.android.BDQN.AptechMobileAgent"
+    style="@style/layoutBothMatch"
+    android:background="@drawable/bg_1"
+    android:orientation="vertical" >
+
+    <rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.Components.DefaultHeader
+        style="@style/defaultHeaderStyle"
+        android:background="@drawable/top_bg"
+        rjf:headerTitle="@string/traffic_mgr" />
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/traffic_title"
+            style="@style/traffic_title"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/alphawhite" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                style="@style/traffic_text"
+                android:text="@string/tgdownload" />
+
+            <TextView
+                android:id="@+id/traffic_download"
+                style="@style/traffic_text"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                style="@style/traffic_text"
+                android:text="@string/tgupload" />
+
+            <TextView
+                android:id="@+id/traffic_upload"
+                style="@style/traffic_text"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                style="@style/traffic_text"
+                android:text="@string/tgtotal" />
+
+            <TextView
+                android:id="@+id/traffic_total"
+                style="@style/traffic_text"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/traffic_text"
+            android:layout_marginLeft="20dp"
+            android:text="@string/reserv_exp" />
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <EditText
+                android:id="@+id/traffic_et_reserve"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/traffic_cb_save"
+                style="@style/layoutBothWrap"
+                android:layout_marginLeft="10dp"
+                android:checked="false"
+                android:text="@string/reserv_save" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/alphawhite" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/traffic_btn_month"
+            style="@style/wMatchhWrap"
+            android:layout_weight="1"
+            android:background="@drawable/common_btn"
+            android:text="@string/traffic_month_txt"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/traffic_btn_day"
+            style="@style/wMatchhWrap"
+            android:layout_weight="1"
+            android:background="@drawable/common_btn"
+            android:text="@string/traffic_day_txt"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/alphawhite" />
+
+    <Button
+        android:id="@+id/traffic_sms_query"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/common_btn"
+        android:text="@string/traffic_sms_query_txt"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

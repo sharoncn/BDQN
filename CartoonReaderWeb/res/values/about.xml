@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="about_title">关于动漫阅读器</string>
+<string name="about_body">这是一款Android版的动漫阅读器客户端，使用该动漫阅读器可以随时随地的看自己想看的漫画书!\n\n\n</string>
+<string name="about_bottom">本版权归北大青鸟集团所有\n\n&#160;&#160;&#160;&#160;Copyright@2010-2015 </string>
+</resources>

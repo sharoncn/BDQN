@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch"
+    android:background="@drawable/bg" >
+
+    <LinearLayout
+        style="@style/layoutBothMatch"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/loading_left"
+            style="@style/layoutBothMatch"
+            android:layout_weight="1"
+            android:background="@drawable/anim_left" />
+
+        <ImageView
+            android:id="@+id/loading_right"
+            style="@style/layoutBothMatch"
+            android:layout_weight="1"
+            android:background="@drawable/anim_right" />
+    </LinearLayout>
+
+</FrameLayout>

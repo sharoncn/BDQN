@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch"
+    android:orientation="vertical" >
+
+    <FrameLayout style="@style/layoutBothMatch" >
+
+        <ProgressBar
+            style="@style/layoutBothWrap"
+            android:id="@+id/altme_pb"
+            android:layout_gravity="center"
+            android:max="100"
+            android:visibility="visible" />
+
+        <ListView
+            android:id="@+id/altme_list"
+            style="@style/layoutBothMatch"
+            android:cacheColorHint="@android:color/transparent" />
+    </FrameLayout>
+
+</LinearLayout>

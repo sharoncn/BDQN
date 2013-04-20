@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/BDQN/!svn/ver/297/CartoonReaderWeb/res/layout
+END
+layout_feedback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/BDQN/!svn/ver/284/CartoonReaderWeb/res/layout/layout_feedback.xml
+END
+layout_bookmark_add_cartoonreader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/BDQN/!svn/ver/264/CartoonReaderWeb/res/layout/layout_bookmark_add_cartoonreader.xml
+END
+layout_bottom_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/BDQN/!svn/ver/177/CartoonReaderWeb/res/layout/layout_bottom_menu.xml
+END
+layout_image_fixedtime_cartoonreader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/BDQN/!svn/ver/264/CartoonReaderWeb/res/layout/layout_image_fixedtime_cartoonreader.xml
+END
+layout_item_bookdetail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/BDQN/!svn/ver/236/CartoonReaderWeb/res/layout/layout_item_bookdetail.xml
+END
+layout_shelf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/BDQN/!svn/ver/237/CartoonReaderWeb/res/layout/layout_shelf.xml
+END
+layout_item_readed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/BDQN/!svn/ver/286/CartoonReaderWeb/res/layout/layout_item_readed.xml
+END
+layout_historyreaded.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/BDQN/!svn/ver/228/CartoonReaderWeb/res/layout/layout_historyreaded.xml
+END
+layout_item_normal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/BDQN/!svn/ver/216/CartoonReaderWeb/res/layout/layout_item_normal.xml
+END
+layout_image_rotate_cartoonreader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/BDQN/!svn/ver/264/CartoonReaderWeb/res/layout/layout_image_rotate_cartoonreader.xml
+END
+layout_recommend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/BDQN/!svn/ver/285/CartoonReaderWeb/res/layout/layout_recommend.xml
+END
+layout_tabmain_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/BDQN/!svn/ver/288/CartoonReaderWeb/res/layout/layout_tabmain_test.xml
+END
+layout_bookmark_cartoonreader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/BDQN/!svn/ver/264/CartoonReaderWeb/res/layout/layout_bookmark_cartoonreader.xml
+END
+layout_sdcard_directory_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/BDQN/!svn/ver/264/CartoonReaderWeb/res/layout/layout_sdcard_directory_list.xml
+END
+layout_logout_cartoonreader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/BDQN/!svn/ver/264/CartoonReaderWeb/res/layout/layout_logout_cartoonreader.xml
+END
+layout_tabmain_cartoonreader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/BDQN/!svn/ver/264/CartoonReaderWeb/res/layout/layout_tabmain_cartoonreader.xml
+END
+layout_sdcard_directory.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/BDQN/!svn/ver/264/CartoonReaderWeb/res/layout/layout_sdcard_directory.xml
+END
+layout_rating.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/284/CartoonReaderWeb/res/layout/layout_rating.xml
+END
+layout_baseactivity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/BDQN/!svn/ver/193/CartoonReaderWeb/res/layout/layout_baseactivity.xml
+END
+layout_home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/BDQN/!svn/ver/277/CartoonReaderWeb/res/layout/layout_home.xml
+END
+layout_collection.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/BDQN/!svn/ver/228/CartoonReaderWeb/res/layout/layout_collection.xml
+END
+layout_main_cartoonreader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/BDQN/!svn/ver/265/CartoonReaderWeb/res/layout/layout_main_cartoonreader.xml
+END
+layout_booktype.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/BDQN/!svn/ver/285/CartoonReaderWeb/res/layout/layout_booktype.xml
+END
+layout_item_type.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/BDQN/!svn/ver/227/CartoonReaderWeb/res/layout/layout_item_type.xml
+END
+layout_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/BDQN/!svn/ver/292/CartoonReaderWeb/res/layout/layout_search.xml
+END
+layout_bookmark_list_cartoonreader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/BDQN/!svn/ver/264/CartoonReaderWeb/res/layout/layout_bookmark_list_cartoonreader.xml
+END
+layout_about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/BDQN/!svn/ver/221/CartoonReaderWeb/res/layout/layout_about.xml
+END
+layout_tabmain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/BDQN/!svn/ver/297/CartoonReaderWeb/res/layout/layout_tabmain.xml
+END
+layout_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/BDQN/!svn/ver/285/CartoonReaderWeb/res/layout/layout_order.xml
+END
+layout_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/BDQN/!svn/ver/270/CartoonReaderWeb/res/layout/layout_loading.xml
+END
+layout_bookdetail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/BDQN/!svn/ver/234/CartoonReaderWeb/res/layout/layout_bookdetail.xml
+END

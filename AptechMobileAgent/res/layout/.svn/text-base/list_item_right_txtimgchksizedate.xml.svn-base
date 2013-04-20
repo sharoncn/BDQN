@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:focusableInTouchMode="false"
+	    android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2000"
+        android:orientation="horizontal" >
+		<ImageView
+			android:id="@+id/img" 
+			android:focusableInTouchMode="false"
+	    	android:focusable="false"
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_margin="5px" />
+		<LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical" >
+			<TextView
+			    android:id="@+id/filename"
+			    android:focusableInTouchMode="false"
+		    	android:focusable="false"
+		    	android:maxLines="2"
+			    android:layout_gravity="left"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="200"
+			    android:textColor="@android:color/white" />
+			<LinearLayout 
+			    android:layout_gravity="bottom"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+		    	android:orientation="horizontal" >
+				<TextView
+				    android:id="@+id/filesize"
+				    android:focusableInTouchMode="false"
+			    	android:focusable="false"
+				    android:layout_gravity="left"
+				    android:layout_width="50dip"
+				    android:layout_height="wrap_content"
+				    android:textSize="10dp"
+				    android:textStyle="italic"
+				    android:textColor="@color/sky_blue" />
+				<TextView
+				    android:id="@+id/lastmodifydate"
+				    android:layout_marginBottom="5dip"
+				    android:focusableInTouchMode="false"
+			    	android:focusable="false"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="10dp"
+				    android:textStyle="italic"
+				    android:textColor="@color/sky_blue" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<CheckBox
+	    android:id="@+id/select"
+	    android:button="@drawable/btn_check"
+	    android:checked="false"
+	    android:focusableInTouchMode="false"
+	    android:focusable="false"
+	    android:layout_gravity="right"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1" />
+</LinearLayout>

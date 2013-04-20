@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        style="@style/layoutBothMatch"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/panel_title"
+            style="@style/panel_title" />
+
+        <EditText
+            android:id="@+id/panel_content"
+            style="@style/list_item_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_selector"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

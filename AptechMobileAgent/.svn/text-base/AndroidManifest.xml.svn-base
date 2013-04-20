@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rjfsdo.sharoncn.android.BDQN.AptechMobileAgent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="9" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="rjfsdo.sharoncn.android.BDQN.AptechMobileAgent" />
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainActivity" >
+        </activity>
+        <activity
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:name=".LoadingActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/communication_mgr"
+            android:name=".CommunicationManager.CommunicationActivity" >
+        </activity>
+        <activity
+            android:label="@string/file_mgr"
+            android:name=".FilesManager.FileManagerActivity" >
+        </activity>
+        <activity
+            android:label="@string/power_mgr"
+            android:name=".PowerManager.PowerActivity" >
+        </activity>
+        <activity
+            android:label="@string/apps_mgr"
+            android:name=".AppsManager.AppsManagerActivity" >
+        </activity>
+        <activity
+            android:label="@string/privacy_mgr"
+            android:name=".PrivacyManager.PrivacyActivity" >
+        </activity>
+        <activity
+            android:label="@string/privacy_mgr"
+            android:launchMode="singleInstance"
+            android:name=".PrivacyManager.PrivacyPWDActivity" >
+        </activity>
+        <activity
+            android:label="@string/traffic_mgr"
+            android:name=".TrafficManager.TrafficActivity" >
+        </activity>
+        <activity
+            android:label="@string/traffic_mgr"
+            android:name=".TrafficManager.TrafficSmsQuery" >
+        </activity>
+        <activity
+            android:name=".FlashManager.FlashActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <service android:name=".Service.PrivacyService" >
+        </service>
+        <service android:name=".Service.TrafficService" >
+        </service>
+
+        <receiver
+            android:label="@string/flash"
+            android:name=".FlashManager.FlashWidget" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.click" />
+                <action android:name="rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.move" />
+                <action android:name="rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.response" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/flashwidget_provider" />
+        </receiver>
+        <receiver
+            android:name=".Receivers.BootReceiver" >
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:authorities="rjfsdo.sharoncn.PrivacyProvider"
+            android:name=".PrivacyManager.PrivacyProvider" >
+        </provider>
+    </application>
+
+</manifest>

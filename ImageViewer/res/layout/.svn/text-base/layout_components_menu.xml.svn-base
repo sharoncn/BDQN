@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	<ImageView 
+	    android:id="@+id/menu_separator"
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:visibility="gone"
+	    android:background="@color/dark_gray" />
+    <LinearLayout 
+	    android:id="@+id/menu_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    <ImageButton
+	        android:id="@+id/menu_delete"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/menu_selector"
+	        android:src="@raw/ic_menu_trash" />
+	
+	    <ImageButton
+	        android:id="@+id/menu_info"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/menu_selector"
+	        android:src="@raw/ic_menu_info_details" />
+	
+	    <ImageButton
+	        android:id="@+id/menu_more"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/menu_selector"
+	        android:src="@raw/ic_menu_more_operations" />
+	</LinearLayout>
+</LinearLayout>

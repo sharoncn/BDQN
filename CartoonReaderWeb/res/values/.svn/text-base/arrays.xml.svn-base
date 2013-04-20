@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="more_dialog">
+        <item>@string/about</item>
+        <item>@string/exit</item>
+        <item>@string/feedback</item>
+    </array>
+</resources>

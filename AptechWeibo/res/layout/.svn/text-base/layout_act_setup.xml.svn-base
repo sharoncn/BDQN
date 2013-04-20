@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:current="http://schemas.android.com/apk/res/rjfsdo.sharoncn.android.BDQN.AptechWeibo"
+    android:title="@string/setup" >
+
+    <PreferenceCategory android:title="@string/soundsetup" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="isPlaySound"
+            android:summaryOff="@string/isplaysound_close"
+            android:summaryOn="@string/isplaysound_open"
+            android:title="@string/isplaysound" />
+
+        <rjfsdo.sharoncn.android.BDQN.AptechWeibo.Components.SeekBarPreference
+            android:key="soundVolume"
+            android:title="@string/soundVolume"
+            current:isPlaySample="true" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/functionsetup" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="screenOrientation"
+            android:summaryOff="@string/sn_landscape"
+            android:summaryOn="@string/sn_portrait"
+            android:title="@string/screenorientation" />
+
+        <ListPreference
+            android:dialogTitle="@string/choose_refresh_tick"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entriesvalue_list_preference"
+            android:key="refreshTick"
+            android:summary="@string/click_choose"
+            android:title="@string/refresh_tick" />
+
+        <ListPreference
+            android:dialogTitle="@string/choose_font_size"
+            android:entries="@array/fontsize_list_preference"
+            android:entryValues="@array/fontsizevalue_list_preference"
+            android:key="fontSize"
+            android:summary="@string/click_choose"
+            android:title="@string/font_size" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="messageNotify"
+            android:summaryOff="@string/mn_off"
+            android:summaryOn="@string/mn_on"
+            android:title="@string/message_notify" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

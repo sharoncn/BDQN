@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgr"
+    android:orientation="vertical" >
+
+    <rjfsdo.sharoncn.android.BDQN.LeisureLife.Components.ShareHeader
+        android:id="@+id/recommend_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	    android:layout_marginTop="10dp"
+	    android:background="@drawable/content_bg" >
+	    <EditText 
+	        android:id="@+id/recommend_content"
+	        android:layout_width="match_parent"
+	        android:inputType="textMultiLine"
+	        android:hint="@string/input_recommend_content"
+	        android:gravity="top"
+	        android:padding="5dp"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"
+	        android:layout_height="220dp"
+	        android:background="@drawable/content_edi" />
+	    <LinearLayout 
+	        android:layout_marginTop="10dp"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"
+		    android:layout_width="match_parent"
+		    android:layout_height="40dp"
+		    android:padding="5dp"
+		    android:gravity="center"
+		    android:background="@drawable/content_edi"
+		    android:orientation="horizontal" >
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/recommend_numis"
+		        android:textColor="@android:color/black" />
+		    <EditText 
+		        android:id="@+id/recommend_number"
+		        android:textColor="@android:color/black"
+		        android:singleLine="true"
+		        android:numeric="integer"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@android:color/transparent" />
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal" >
+
+    <!-- 显示图片 -->
+    <ImageView 
+        android:id="@+id/iv_video_thunmnail"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp" />
+    
+   <!--  把文件名和文件大小信息包裹为一个整体显示在图片右侧 -->"
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:layout_margin="5dp" >
+	    <!-- android:layout_toRightOf="@id/iv_video_thunmnail"这个多余的吧，要了有什么用，让我测试下toLeftOf看看有没有效果，
+	    如果toLeftOf没有效果，这个属性就更加没有存在意义了 -->
+	    
+	    <!-- 显示文件名 -->
+	    <TextView 
+	        android:id="@+id/tv_video_name"
+	        style="@style/textViewStyle" />
+	    
+	    <!-- 显示文件大小 -->
+	    <TextView 
+	        android:id="@+id/tv_video_size"
+	        style="@style/textViewStyle"
+	        android:layout_below="@id/tv_video_name" />
+	</RelativeLayout>
+</LinearLayout>

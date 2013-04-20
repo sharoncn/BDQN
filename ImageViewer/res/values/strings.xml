@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">ImageViewer</string>
+    <string name="searching">正在搜索图片，请稍候……</string>
+    <string name="nopic">SD卡中没有图片</string>
+    <string name="cannot_found_pic">没有发现任何图片</string>
+    <string name="title_part">SD卡中共有<xliff:g>%s</xliff:g>张图片</string>
+	<string name="title_select_part">您选中了<xliff:g>%s</xliff:g>项</string>
+	
+	<string name="view_title_info"><xliff:g>%1$s</xliff:g>/<xliff:g>%2$s</xliff:g></string>
+	<!-- dialog -->
+	<string name="dialog_ditail">详情</string>
+	<string name="dialog_nameis">名称:<xliff:g>%1$s</xliff:g></string>
+	<string name="dialog_pathis">路径:<xliff:g>%1$s</xliff:g></string>
+	<string name="dialog_timeis">时间:<xliff:g id="time" example="2013-02-22">%1$s</xliff:g></string>
+	<string name="dialog_sizeis">大小:<xliff:g>%s</xliff:g></string>
+	<string name="separator_dialog">分隔符</string>
+	<string name="ok">确定</string>
+	<string name="cancel">取消</string>
+	<string name="delete">删除</string>
+	<string name="delete_message">确定要删除吗？</string>
+	<string name="back">返回</string>
+	<string name="more">更多</string>
+</resources>

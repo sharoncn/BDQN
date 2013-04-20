@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food2_bg"
+    android:paddingLeft="10dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/list_item_detail_d_img"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/list_item_detail_d_txtone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/dark_gray" />
+
+        <Button
+            android:id="@+id/list_item_detail_d_reserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/list_item_detail_show_btnreserve" />
+
+        <Button
+            android:id="@+id/list_item_detail_d_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/list_item_detail_show_btnfind" />
+    </LinearLayout>
+
+</LinearLayout>

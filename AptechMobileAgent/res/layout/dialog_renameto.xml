@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/layoutBothMatch"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tv_title"
+        android:layout_marginTop="5dp"
+        style="@style/dialog_detail_titile" />
+    
+    <TextView 
+        android:id="@+id/tv_current_name"
+        style="@style/dialog_detail_content" />
+    
+    <EditText 
+        android:id="@+id/et_rename"
+        android:hint="@string/renameto_hint"
+        style="@style/wMatchhWrap" />
+</LinearLayout>

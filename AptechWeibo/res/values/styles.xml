@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="widthWrap">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="widthMatch">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="layoutBothWrap" parent="widthWrap">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="layoutBothMatch" parent="widthMatch">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wMatchhWrap" parent="widthMatch">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="mainBottomMenuText" parent="layoutBothWrap">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="header_title" parent="layoutBothWrap">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="list_item_content_wrap" parent="layoutBothWrap">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="list_item_content_time" parent="layoutBothWrap">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="list_item_content" parent="wMatchhWrap">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="list_item_content_reference" parent="wMatchhWrap">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="list_item_content_from" parent="layoutBothWrap">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="panel_title" parent="layoutBothWrap">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="panel_content" parent="layoutBothWrap">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="panel_count_content" parent="layoutBothWrap">
+        <item name="android:textColor">@color/panel_count_value</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_black16sp">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

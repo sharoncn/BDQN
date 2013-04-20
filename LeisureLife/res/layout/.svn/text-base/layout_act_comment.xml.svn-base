@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darker_white"
+    android:orientation="vertical" >
+
+    <rjfsdo.sharoncn.android.BDQN.LeisureLife.Components.DefaultHeader
+        android:id="@+id/comment_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	<EditText 
+	    android:id="@+id/comment_text"
+	    android:layout_marginTop="2dp"
+	    android:layout_marginBottom="5dp"
+	    android:layout_weight="1"
+	    android:gravity="top|left"
+	    android:inputType="textMultiLine"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	    <Button 
+	        android:id="@+id/comment_btn_back"
+	        android:layout_width="80dp"
+	        android:layout_height="50dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="2dp"
+	        android:text="@string/back" />
+	    <Button 
+	        android:id="@+id/comment_btn_publish"
+	        android:layout_width="80dp"
+	        android:layout_height="50dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="2dp"
+	        android:text="@string/publish" />
+	</RelativeLayout>
+</LinearLayout>

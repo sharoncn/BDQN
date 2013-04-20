@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World, 手机助手!</string>
+    <string name="app_name">手机助手</string>
+    <string name="exit">退出</string>
+    <string name="exit_confirm">您要退出 《<xliff:g>%1$s</xliff:g>》吗？</string>
+
+    <!-- 主界面字符串 -->
+    <string name="privacy_mgr">隐私管理</string>
+    <string name="file_mgr">资源管理</string>
+    <string name="power_mgr">电源管理</string>
+    <string name="communication_mgr">通讯管理</string>
+    <string name="apps_mgr">应用管理</string>
+    <string name="traffic_mgr">流量管理</string>
+    
+    <!-- 通讯管理 -->
+    <string name="communication_bak">备份短信</string>
+    <string name="communication_restore">还原短信</string>
+    <string name="err_get_sms_bak">获得短信备份失败！</string>
+    <string name="bak_sms_success">备份短信成功！</string>
+    <string name="bak_sms_fail">备份短信失败！</string>
+    <string name="recovery_sms_success">还原短信成功！</string>
+    
+    <!-- 资源管理 -->
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="copyto">复制</string>
+    <string name="select">选择</string>
+    <string name="copying">正在复制</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="share">分享</string>
+    <string name="file_detail">文件详情</string>
+
+    <!-- Dialog -->
+    <string name="rename">重命名</string>
+	<string name="currentname">当前文件名称:</string>
+	<string name="renameto_hint">重命名到</string>
+	<string name="delete_sure">确定删除吗?</string>
+	<string name="filenameis">文件名称:</string>
+	<string name="filesizeis">文件大小:</string>
+	<string name="filepathis">文件路径:</string>
+	<string name="lastmodifyis">最后修改日期:</string>
+	<string name="rename_success">重命名成功！</string>
+	<string name="rename_fail">重命名失败！</string>
+	<string name="delete_success">删除成功！</string>
+	<string name="delete_fail">删除失败！</string>
+	<!-- power -->
+	<string name="battery_status">电池状态：<xliff:g>%1$s</xliff:g></string>
+	<string name="battery_status_r">电池运行状态：<xliff:g>%1$s</xliff:g></string>
+	<string name="battery_status_v">电池电压：<xliff:g>%1$s</xliff:g>mV</string>
+	<string name="battery_status_t">电池温度：<xliff:g>%1$s</xliff:g>°C</string>
+	<string name="battery_status_tech">电池技术：<xliff:g>%1$s</xliff:g></string>
+	<string name="battery_status_rt">启动后时间：<xliff:g>%1$s</xliff:g></string>
+	<string name="timeformat"><xliff:g>%1$s</xliff:g>:<xliff:g>%2$s</xliff:g>:<xliff:g>%3$s</xliff:g></string>
+	<string name="normal">正常</string>
+	<string name="dead">已坏</string>
+	<string name="overvoltage">过压</string>
+	<string name="overheat">过热</string>
+	<string name="unkown">未知</string>
+	<string name="undefine">未定义</string>
+	<string name="plugusb"> (USB接入)</string>
+	<string name="plugac"> (交流电)</string>
+	<string name="notcharging">未充电</string>
+	<string name="full">已充满</string>
+	<string name="discharging">正在放电</string>
+	<string name="charging">正在充电</string>
+	
+	<!-- app -->
+	<string name="app_all">全部应用</string>
+	<string name="app_nosys">非系统应用</string>
+	<string name="app_sys">系统应用</string>
+	<string name="open">打开</string>
+	<string name="uninstall">卸载</string>
+	<string name="sizeis">大小:<xliff:g>%1$s</xliff:g></string>
+	<string name="veris">版本:<xliff:g>%1$s</xliff:g></string>
+	<string name="loading">数据加载中……</string>
+	<string name="deleting">正在卸载应用……</string>
+	<string name="intentisnull">未能正确启动程序！</string>
+	<string name="uninstall_success">卸载应用成功！</string>
+	<string name="uninstall_fail">卸载应用失败！</string>
+	<string name="remaining_mem_size">可用内存：<xliff:g>%1$s</xliff:g></string>
+	
+	<!-- flash -->
+	<string name="flash">手电筒</string>
+	
+	<!-- privacy -->
+	<string name="privacy_pwd_tips">提示:本次解锁后在锁屏操作前会暂停锁保护！</string>
+	<string name="input_unlock_pw">请输入解锁密码</string>
+	<string name="unlock">解锁</string>
+	<string name="modify_pw">修改密码</string>
+	<string name="input_err">请正确输入！</string>
+	<string name="pw_wrong">密码错误！</string>
+	<string name="dialog_modify_oldpw">原密码:</string>
+	<string name="dialog_modify_newpw">新密码:</string>
+	<string name="dialog_modify_newcomform">确认:</string>
+	<string name="dialog_modify_oldpw_1">请输入原密码</string>
+	<string name="dialog_modify_newpw_1">请输入新密码</string>
+	<string name="dialog_modify_newcomform_1">请再次确认</string>
+	<string name="comform_err">密码确认错误！</string>
+	<string name="showpassword">显示密码</string>
+	<string name="pw_err">原密码不正确！</string>
+	<string name="input_pw">请输入密码</string>
+	<string name="commit_fail">提交失败！</string>
+	<string name="modify_pw_success">修改密码成功！</string>
+	<string name="modify_pw_fail">修改密码失败！</string>
+	<string name="createnewpw">创建新密码</string>
+	
+	<!-- traffic -->
+	<string name="tgdownload">3G下载流量:</string>
+	<string name="tgupload">3G上传流量:</string>
+	<string name="tgtotal">3G总计流量:</string>
+	<string name="reserv_exp">本月3G流量套餐(单位:M)</string>
+	<string name="reserv_save">保存套餐</string>
+	<string name="traffic_day_txt">当天流量</string>
+	<string name="traffic_month_txt">当月流量</string>
+	<string name="traffic_sms_query_txt">短信查询流量套餐</string>
+	<string name="count_day">当天流量统计</string>
+	<string name="count_month">当月流量统计</string>
+	<string name="spn">SIM卡运营商</string>
+	<string name="sendto">发送至</string>
+	<string name="applywhat">查询内容</string>
+	<string name="sendsmsmsg">发送查询短信</string>
+	<string name="traffictips">由于运营商服务内容会不定期进行调整，若内容不正确时，请手动更新！</string>
+	<string name="send_success">发送成功！</string>
+</resources>

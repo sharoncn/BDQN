@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutBothMatch"
+    android:background="@color/bgcolor"
+    android:orientation="vertical" >
+
+    <rjfsdo.sharoncn.android.BDQN.AptechWeibo.Components.DefaultHeader
+        android:id="@+id/search_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_bg" />
+
+    <LinearLayout
+        style="@style/layoutBothMatch"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:background="@drawable/top_twobutton_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <LinearLayout
+                style="@style/wMatchhWrap"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    style="@style/layoutBothWrap"
+                    android:background="@drawable/search_left_top_icon" />
+
+                <EditText
+                    android:id="@+id/search_key"
+                    style="@style/wMatchhWrap"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_selector" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/search_search"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/search" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_group"
+            style="@style/wMatchhWrap"
+            android:background="@drawable/top_twobutton_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                style="@style/wMatchhWrap"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/search_findstatus"
+                    style="@style/layoutBothWrap"
+                    android:layout_centerInParent="true"
+                    android:button="@drawable/gender_rb_selector"
+                    android:checked="true"
+                    android:text="@string/weibo"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:background="@color/divider" />
+
+            <RelativeLayout
+                style="@style/wMatchhWrap"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/search_pelpeo"
+                    style="@style/layoutBothWrap"
+                    android:layout_centerInParent="true"
+                    android:button="@drawable/gender_rb_selector"
+                    android:text="@string/findpelpeo"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/layoutBothMatch"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <rjfsdo.sharoncn.android.BDQN.AptechWeibo.Components.SearchPanel
+                android:id="@+id/search_panel"
+                style="@style/wMatchhWrap" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

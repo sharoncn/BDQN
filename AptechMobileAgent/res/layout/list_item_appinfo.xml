@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/list_bg_normal"
+    style="@style/layoutBothWrap" >
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        style="@style/layoutBothWrap"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/app_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/app_name"
+            style="@style/app_item_title" />
+
+        <TextView
+            android:id="@+id/app_size"
+            style="@style/app_item_small" />
+
+        <TextView
+            android:id="@+id/app_ver"
+            style="@style/app_item_small" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/app_btn_uninstall"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/common_btn"
+        android:text="@string/uninstall"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/app_btn_open"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/app_btn_uninstall"
+        android:background="@drawable/common_btn"
+        android:text="@string/open"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

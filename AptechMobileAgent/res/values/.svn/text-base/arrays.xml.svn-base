@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="file_op">
+        <item>查看</item>
+        <item>分享</item>
+        <item>重命名</item>
+        <item>删除</item>
+        <item>详情</item>
+    </string-array>
+
+    
+</resources>

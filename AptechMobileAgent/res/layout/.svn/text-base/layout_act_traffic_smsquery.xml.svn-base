@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rjf="http://schemas.android.com/apk/res/rjfsdo.sharoncn.android.BDQN.AptechMobileAgent"
+    style="@style/layoutBothMatch"
+    android:background="@drawable/bg_1"
+    android:orientation="vertical" >
+
+    <rjfsdo.sharoncn.android.BDQN.AptechMobileAgent.Components.DefaultHeader
+        style="@style/defaultHeaderStyle"
+        android:background="@drawable/top_bg"
+        rjf:headerTitle="@string/traffic_mgr" />
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/traffic_title"
+            android:text="@string/traffic_sms_query_txt"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/alphawhite" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingRight="20dp" >
+
+            <TextView
+                style="@style/traffic_query_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/spn" />
+
+            <EditText
+                android:id="@+id/traffic_spn"
+                style="@style/wMatchhWrap"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingRight="20dp" >
+
+            <TextView
+                style="@style/traffic_query_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/sendto" />
+
+            <EditText
+                android:id="@+id/traffic_sendto"
+                style="@style/wMatchhWrap"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/wMatchhWrap"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingRight="20dp" >
+
+            <TextView
+                style="@style/traffic_query_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/applywhat" />
+
+            <EditText
+                android:id="@+id/traffic_applywhat"
+                style="@style/wMatchhWrap"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/alphawhite" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/traffic_btn_send"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_btn"
+            android:text="@string/sendsmsmsg"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            style="@style/traffic_query_text"
+            android:gravity="center"
+            android:text="@string/traffictips" />
+    </LinearLayout>
+
+</LinearLayout>

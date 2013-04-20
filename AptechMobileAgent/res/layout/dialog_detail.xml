@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/dialog_detail_titile"
+            android:text="@string/filenameis" />
+
+        <TextView
+            android:id="@+id/detail_filename"
+            style="@style/dialog_detail_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/dialog_detail_titile"
+            android:text="@string/filepathis" />
+
+        <TextView
+            android:id="@+id/detail_filepath"
+            style="@style/dialog_detail_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/dialog_detail_titile"
+            android:text="@string/filesizeis" />
+
+        <TextView
+            android:id="@+id/detail_filesize"
+            style="@style/dialog_detail_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        style="@style/wMatchhWrap"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/dialog_detail_titile"
+            android:text="@string/lastmodifyis" />
+
+        <TextView
+            android:id="@+id/detail_lastmodify"
+            style="@style/dialog_detail_content" />
+    </LinearLayout>
+
+</LinearLayout>
